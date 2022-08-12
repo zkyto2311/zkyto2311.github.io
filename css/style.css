@@ -2,4 +2,9 @@ h1 {
     padding: 0.25em 0.5em;
     background: transparent;
     border-left: solid 5px #7db4e6;
-  }
+}
+
+.top {
+    background: azure;
+    width: auto;
+}
