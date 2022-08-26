@@ -1,3 +1,7 @@
 .top-iframe {
     background-color: azure;
 }
+
+iframe {
+    border: none;
+}
