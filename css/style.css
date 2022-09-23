@@ -4,3 +4,32 @@ h1 {
     border-left: solid 5px #7db4e6;
 }
 
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+}
+  
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+}
+
+.button {
+    position: absolute;
+    top: 35px;
+    height: 25px;
+    width: 50px;
+    border: none;
+    left: 250px;
+}
